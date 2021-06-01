@@ -1,7 +1,6 @@
-
 {% set name = "google-cloud-websecurityscanner" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "1c8031e6eec59ee3e2d4af88090ba36521ceb67d79cb297d3c128d2a16af0798" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "2e0eb2a2a3aef3c9591d3fc7f453dd8158120e6ee82d468f9bb4f552c5c1f05a" %}
 
 package:
   name: {{ name|lower }}
@@ -35,11 +34,8 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Google Cloud Web Security Scanner API client library'
-  description: Google Cloud Web Security Scanner API scans your Compute and App Engine apps for common
-    web vulnerabilities.
-
-    [Quick start guide](https://googleapis.dev/python/websecurityscanner/latest/index.html#quick-start)
+  summary: Google Cloud Web Security Scanner API client library
+  description: "Google Cloud Web Security Scanner API scans your Compute and App Engine apps for common web vulnerabilities.\n[Quick start guide](https://googleapis.dev/python/websecurityscanner/latest/index.html#quick-start)"
 
   doc_url: https://googleapis.dev/python/websecurityscanner/latest/index.html
   dev_url: https://github.com/googleapis/python-websecurityscanner
