@@ -23,10 +23,14 @@ requirements:
     - python >=3.6
     - google-api-core-grpc >=1.22.2,<2.0.0dev
     - proto-plus >=1.15.0
+    - packaging >=14.3
 
 test:
   imports:
     - grpc
+    - google.cloud.websecurityscanner
+    - google.cloud.websecurityscanner_v1
+    - google.cloud.websecurityscanner_v1alpha
     - google.cloud.websecurityscanner_v1beta
 
 about:
