@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-websecurityscanner
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-websecurityscanner-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Cloud Web Security Scanner API client library
+
+Development: https://github.com/googleapis/python-websecurityscanner
+
+Documentation: https://googleapis.dev/python/websecurityscanner/latest/index.html
 
 Google Cloud Web Security Scanner API scans your Compute and App Engine apps for common web vulnerabilities.
 [Quick start guide](https://googleapis.dev/python/websecurityscanner/latest/index.html#quick-start)
@@ -109,9 +113,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
