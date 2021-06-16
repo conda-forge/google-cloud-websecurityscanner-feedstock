@@ -28,7 +28,6 @@ requirements:
 test:
   imports:
     - grpc
-    - google.cloud.websecurityscanner
     - google.cloud.websecurityscanner_v1beta
 
 about:
