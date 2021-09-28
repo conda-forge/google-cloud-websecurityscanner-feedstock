@@ -1,6 +1,6 @@
 {% set name = "google-cloud-websecurityscanner" %}
-{% set version = "1.4.1" %}
-{% set sha256 = "a2aec0319d6ca3c211ee79fc7c8854af8a0e244269d4540fc6224887ed5b30b0" %}
+{% set version = "1.4.2" %}
+{% set sha256 = "593e73edb31ecb8e079c83c65dca29a593208f81a7506e6ef20aeecf611f2a9d" %}
 
 package:
   name: {{ name|lower }}
