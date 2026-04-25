@@ -1,13 +1,13 @@
 {% set name = "google-cloud-websecurityscanner" %}
-{% set version = "1.14.4" %}
-{% set sha256 = "26a23b10b11fabc31411d9393c8f786191d47341f27f7575a9bd4e4573c1533e" %}
+{% set version = "1.15.0" %}
+{% set sha256 = "e83dce7007b9294a84c5fbc91cbecb26ff2b3e7e17532caa86807e7c95d5c02a" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
